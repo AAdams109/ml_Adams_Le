@@ -25,7 +25,7 @@ learning_rate = 0.001
 bert_model = 'prajjwal1/bert-tiny'
 
 #Load and Train-Test Split Data: When testing out the 3 datasets, merely edit which CVS is being read 
-df = pd.read_csv('WELFake_sub_dataset_3.csv')
+df = pd.read_csv('datasets/WelFake_subdatasets/WELFake_sub_dataset_3.csv')
 full_article = df["title"] + " " + df["text"]
 labels = df['label'].values
 
