@@ -23,7 +23,7 @@ num_epochs = 10
 learning_rate = 0.001
 
 #Load and Train-Test Split Data: when testing out the 3 datasets, merely edit which CVS is being read 
-df = pd.read_csv('datasets/WELFake_sub_dataset_1.csv')
+df = pd.read_csv('datasets/WELFake_subdatasets/WELFake_sub_dataset_1.csv')
 full_article = df["title"] + " " + df["text"]
 labels = df['label'].values
 
