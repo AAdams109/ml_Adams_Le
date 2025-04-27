@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 #Load the Data 
 datasets = {
-    "CNN": [pd.read_csv('datasets/cnn1_dataset1.csv'),  pd.read_csv('datasets/cnn1_dataset2.csv'),  pd.read_csv('datasets/cnn1_dataset3.csv')],
+    "CNN": [pd.read_csv('datasets/cnn2_dataset1.csv'),  pd.read_csv('datasets/cnn2_dataset2.csv'),  pd.read_csv('datasets/cnn2_dataset3.csv')],
     "LSTM": [pd.read_csv('datasets/lstm2_dataset1.csv'), pd.read_csv('datasets/lstm2_dataset2.csv'), pd.read_csv('datasets/lstm2_dataset3.csv')],
     "BERT": [pd.read_csv('datasets/bert_dataset1.csv'), pd.read_csv('datasets/bert_dataset2.csv'), pd.read_csv('datasets/bert_dataset3.csv')]
     }
